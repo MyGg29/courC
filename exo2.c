@@ -1,4 +1,5 @@
-//fonction d'ackerman
+//Credit to Rodolphe for the idea;
+
 
 #include <stdio.h>
 #include <stdlib.h>
