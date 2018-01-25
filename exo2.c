@@ -65,7 +65,7 @@ int main(int argc, char* argv[]){
     date firstDate = {1,2,2001};
     date secDate = {1,12,2008};
     int daysBetween = 0;
-    while(isEqual(firstDate, secDate) == 0) {
+    while(!isEqual(firstDate, secDate)) {
         firstDate = addOne(firstDate);
         daysBetween += 1;
         //printf("%d",firstDate.month);
